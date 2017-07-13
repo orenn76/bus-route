@@ -1,0 +1,8 @@
+server:
+  port: 8088
+  context-path: /api
+
+logging:
+  file: bus-route.log
+  level:
+    org.springframework.web: INFO
